@@ -1,0 +1,175 @@
+Table PERSON created.
+
+Name      Null?    Type         
+--------- -------- ------------ 
+DRIVER_ID NOT NULL VARCHAR2(10) 
+NAME               VARCHAR2(20) 
+ADDRESS            VARCHAR2(30)
+
+Commit complete.
+
+Name      Null?    Type         
+--------- -------- ------------ 
+DRIVER_ID NOT NULL VARCHAR2(10) 
+NAME               VARCHAR2(20) 
+ADDRESS            VARCHAR2(30) 
+Name      Null?    Type         
+--------- -------- ------------ 
+DRIVER_ID NOT NULL VARCHAR2(10) 
+NAME               VARCHAR2(20) 
+ADDRESS            VARCHAR2(30) 
+
+Commit complete.
+
+
+Commit complete.
+
+Name      Null?    Type         
+--------- -------- ------------ 
+DRIVER_ID NOT NULL VARCHAR2(10) 
+NAME               VARCHAR2(20) 
+ADDRESS            VARCHAR2(30) 
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Commit complete.
+
+Table CAR created.
+
+Name    Null?    Type         
+------- -------- ------------ 
+REG_NUM NOT NULL VARCHAR2(10) 
+MODEL            VARCHAR2(10) 
+YEAR             NUMBER(38)   
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Commit complete.
+
+Table ACCIDENT created.
+
+Name          Null?    Type         
+------------- -------- ------------ 
+REPORT_NUM    NOT NULL NUMBER(38)   
+ACCIDENT_DATE          DATE         
+LOCATION               VARCHAR2(20) 
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Commit complete.
+
+Table ACCIDENT created.
+
+Name          Null?    Type         
+------------- -------- ------------ 
+REPORT_NUM    NOT NULL NUMBER(38)   
+ACCIDENT_DATE          DATE         
+LOCATION               VARCHAR2(20) 
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Commit complete.
+
+Table PARTICIPATED created.
+
+Name          Null?    Type         
+------------- -------- ------------ 
+DRIVER_ID     NOT NULL VARCHAR2(10) 
+REG_NUM       NOT NULL VARCHAR2(10) 
+REPORT_NUM    NOT NULL NUMBER(38)   
+DAMAGE_AMOUNT          NUMBER(38)   
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Commit complete.
+
+
+>>Query Run In:Query Result 11
+
+1 row updated.
+
+
+Commit complete.
+
+
+1 row updated.
+
+
+Commit complete.
+
+>>Query Run In:Query Result 12
+
+1 row inserted.
+
+
+Commit complete.
+
+
+Commit complete.
+
+>>Query Run In:Query Result 13
